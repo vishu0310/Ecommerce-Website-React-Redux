@@ -1,4 +1,5 @@
-{ "products" : [
+{ 
+  "products" : [
     { 
       "id": 1,
       "title": "Essence Mascara Lash Princess",
@@ -1771,7 +1772,8 @@
         "https://cdn.dummyjson.com/products/images/groceries/Kiwi/thumbnail.png"
     }
   ],
-  "brands": [{
+  "brands": [
+    {
     "value": "Essence",
     "label": "Essence",
     "checked": false
@@ -1847,7 +1849,8 @@
     "checked": false
   }],
 
-  "categories": [ {
+  "categories": [
+     {
     "value": "beauty",
     "label": "beauty",
     "checked": false
@@ -1966,5 +1969,404 @@
     "value": "womens-watches",
     "label": "womens watches",
     "checked": false
-  }]
+  }],
+
+  
+  "users": [
+    {
+      "email": "test@gmail.com",
+      "password": "Qwerty123",
+      "addresses": [
+        {
+          "name": "Abhishek R",
+          "email": "test@gmail.com",
+          "phone": "1234567788",
+          "street": "11th Main",
+          "city": "Banaglore",
+          "state": "Karnataka",
+          "pinCode": "560034"
+        },
+        {
+          "name": "Abhishek R",
+          "email": "test@gmail.com",
+          "phone": "1234567788",
+          "street": "11th Main",
+          "city": "Banaglore",
+          "state": "Karnataka",
+          "pinCode": "560034"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "email": "demo@gmail.com",
+      "password": "Qwerty123",
+      "addresses": [],
+      "id": 2
+    }
+  ],
+  "cart": [
+    {
+      "id": 28,
+      "title": "Ice Cream",
+      "description":
+        "Creamy and delicious ice cream, available in various flavors for a delightful treat.",
+      "category": "groceries",
+      "price": 5.49,
+      "discountPercentage": 7.58,
+      "rating": 3.77,
+      "stock": 76,
+      "tags": ["desserts"],
+      "sku": "VEZMU1EQ",
+      "weight": 5,
+      "dimensions": {
+        "width": 17.66,
+        "height": 24.49,
+        "depth": 25.98
+      },
+      "warrantyInformation": "2 year warranty",
+      "shippingInformation": "Ships in 2 weeks",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great product!",
+          "date": "2024-05-23T08:56:21.620Z",
+          "reviewerName": "Elena Baker",
+          "reviewerEmail": "elena.baker@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Highly impressed!",
+          "date": "2024-05-23T08:56:21.620Z",
+          "reviewerName": "Madeline Simpson",
+          "reviewerEmail": "madeline.simpson@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very happy with my purchase!",
+          "date": "2024-05-23T08:56:21.620Z",
+          "reviewerName": "Caleb Nelson",
+          "reviewerEmail": "caleb.nelson@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "No return policy",
+      "minimumOrderQuantity": 19,
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.620Z",
+        "updatedAt": "2024-05-23T08:56:21.620Z",
+        "barcode": "9603960319256",
+        "qrCode": "https://dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Ice%20Cream/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Ice%20Cream/2.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Ice%20Cream/3.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Ice%20Cream/4.png"
+      ],
+      "thumbnail":
+        "https://cdn.dummyjson.com/products/images/groceries/Ice%20Cream/thumbnail.png"
+    },
+    {
+      "id": 29,
+      "title": "Juice",
+      "description":
+        "Refreshing fruit juice, packed with vitamins and great for staying hydrated.",
+      "category": "groceries",
+      "price": 3.99,
+      "discountPercentage": 5.45,
+      "rating": 3.41,
+      "stock": 99,
+      "tags": ["beverages"],
+      "sku": "M2K19S06",
+      "weight": 2,
+      "dimensions": {
+        "width": 8.97,
+        "height": 12.26,
+        "depth": 15.05
+      },
+      "warrantyInformation": "1 week warranty",
+      "shippingInformation": "Ships in 1-2 business days",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.620Z",
+          "reviewerName": "Leo Rivera",
+          "reviewerEmail": "leo.rivera@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not worth the price!",
+          "date": "2024-05-23T08:56:21.620Z",
+          "reviewerName": "Ethan Martinez",
+          "reviewerEmail": "ethan.martinez@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Excellent quality!",
+          "date": "2024-05-23T08:56:21.620Z",
+          "reviewerName": "Max Parker",
+          "reviewerEmail": "max.parker@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "90 days return policy",
+      "minimumOrderQuantity": 26,
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.620Z",
+        "updatedAt": "2024-05-23T08:56:21.620Z",
+        "barcode": "8546824122355",
+        "qrCode": "https://dummyjson.com/public/qr-code.png"
+      },
+      "images": ["https://cdn.dummyjson.com/products/images/groceries/Juice/1.png"],
+      "thumbnail":
+        "https://cdn.dummyjson.com/products/images/groceries/Juice/thumbnail.png"
+    },
+    {
+      "id": 30,
+      "title": "Kiwi",
+      "description":
+        "Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes.",
+      "category": "groceries",
+      "price": 2.49,
+      "discountPercentage": 10.32,
+      "rating": 4.37,
+      "stock": 1,
+      "tags": ["fruits"],
+      "sku": "0X3NORB9",
+      "weight": 8,
+      "dimensions": {
+        "width": 27.3,
+        "height": 7.48,
+        "depth": 15.08
+      },
+      "warrantyInformation": "6 months warranty",
+      "shippingInformation": "Ships in 3-5 business days",
+      "availabilityStatus": "Low Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very pleased!",
+          "date": "2024-05-23T08:56:21.620Z",
+          "reviewerName": "Nora Russell",
+          "reviewerEmail": "nora.russell@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very pleased!",
+          "date": "2024-05-23T08:56:21.620Z",
+          "reviewerName": "Dylan Wells",
+          "reviewerEmail": "dylan.wells@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Great product!",
+          "date": "2024-05-23T08:56:21.620Z",
+          "reviewerName": "Noah Hernandez",
+          "reviewerEmail": "noah.hernandez@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "7 days return policy",
+      "minimumOrderQuantity": 8,
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.620Z",
+        "updatedAt": "2024-05-23T08:56:21.620Z",
+        "barcode": "3325493172934",
+        "qrCode": "https://dummyjson.com/public/qr-code.png"
+      },
+      "images": ["https://cdn.dummyjson.com/products/images/groceries/Kiwi/1.png"],
+      "thumbnail":
+        "https://cdn.dummyjson.com/products/images/groceries/Kiwi/thumbnail.png"
+    }
+  ],
+  "orders": [
+    {
+      "items": [
+        {
+          "title": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 899,
+          "discountPercentage": 17.94,
+          "rating": 4.44,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/2/1.jpg",
+            "https://i.dummyjson.com/data/products/2/2.jpg",
+            "https://i.dummyjson.com/data/products/2/3.jpg",
+            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+          ],
+          "quantity": 2,
+          "user": 1,
+          "id": 6
+        }
+      ],
+      "totalAmount": 1798,
+      "totalItems": 2,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Qwerty123",
+        "addresses": [
+          {
+            "name": "Abhishek R",
+            "email": "test@gmail.com",
+            "phone": "1234567788",
+            "street": "11th Main",
+            "city": "Banaglore",
+            "state": "Karnataka",
+            "pinCode": "560034"
+          },
+          {
+            "name": "Abhishek R",
+            "email": "test@gmail.com",
+            "phone": "1234567788",
+            "street": "11th Main",
+            "city": "Banaglore",
+            "state": "Karnataka",
+            "pinCode": "560034"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Abhishek R",
+        "email": "test@gmail.com",
+        "phone": "1234567788",
+        "street": "11th Main",
+        "city": "Banaglore",
+        "state": "Karnataka",
+        "pinCode": "560034"
+      },
+      "id": 1
+    },
+    {
+      "items": [
+        {
+          "title": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 899,
+          "discountPercentage": 17.94,
+          "rating": 4.44,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/2/1.jpg",
+            "https://i.dummyjson.com/data/products/2/2.jpg",
+            "https://i.dummyjson.com/data/products/2/3.jpg",
+            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+          ],
+          "quantity": 2,
+          "user": 1,
+          "id": 6
+        }
+      ],
+      "totalAmount": 1798,
+      "totalItems": 2,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Qwerty123",
+        "addresses": [
+          {
+            "name": "Abhishek R",
+            "email": "test@gmail.com",
+            "phone": "1234567788",
+            "street": "11th Main",
+            "city": "Banaglore",
+            "state": "Karnataka",
+            "pinCode": "560034"
+          },
+          {
+            "name": "Abhishek R",
+            "email": "test@gmail.com",
+            "phone": "1234567788",
+            "street": "11th Main",
+            "city": "Banaglore",
+            "state": "Karnataka",
+            "pinCode": "560034"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Abhishek R",
+        "email": "test@gmail.com",
+        "phone": "1234567788",
+        "street": "11th Main",
+        "city": "Banaglore",
+        "state": "Karnataka",
+        "pinCode": "560034"
+      },
+      "id": 2
+    },
+    {
+      "items": [
+        {
+          "title": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 899,
+          "discountPercentage": 17.94,
+          "rating": 4.44,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/2/1.jpg",
+            "https://i.dummyjson.com/data/products/2/2.jpg",
+            "https://i.dummyjson.com/data/products/2/3.jpg",
+            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+          ],
+          "quantity": 2,
+          "user": 1,
+          "id": 6
+        }
+      ],
+      "totalAmount": 1798,
+      "totalItems": 2,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Qwerty123",
+        "addresses": [
+          {
+            "name": "Abhishek R",
+            "email": "test@gmail.com",
+            "phone": "1234567788",
+            "street": "11th Main",
+            "city": "Banaglore",
+            "state": "Karnataka",
+            "pinCode": "560034"
+          },
+          {
+            "name": "Abhishek R",
+            "email": "test@gmail.com",
+            "phone": "1234567788",
+            "street": "11th Main",
+            "city": "Banaglore",
+            "state": "Karnataka",
+            "pinCode": "560034"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Abhishek R",
+        "email": "test@gmail.com",
+        "phone": "1234567788",
+        "street": "11th Main",
+        "city": "Banaglore",
+        "state": "Karnataka",
+        "pinCode": "560034"
+      },
+      "id": 3
+    }
+  ]
+
 }
